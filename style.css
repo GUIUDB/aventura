@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    color: orange;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+
+}
+
+button{
+    background-color:aquamarine;
+    color: rgb(0, 140, 255);
+    font-family: "Raleway", sans-serif;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
